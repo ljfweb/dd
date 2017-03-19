@@ -1,0 +1,137 @@
+.m-sell-body{
+    @include flexbox(flex);
+    @include flex-direction(column);
+    
+    width: 100%;
+    .sell-header{
+         @include box-sizing(border-box);
+        @include border(0 0 1px 0,#cbd7cc);
+        background: #f4f4f4;
+        width: 100%;
+        height: .5rem;
+        text-align: center;
+        line-height: .5rem;
+        font-size: .21rem;
+        font-weight: 700;
+        
+    }
+    .sell-content{
+        @include flex(1);
+        @include flexbox(flex);
+        @include flex-direction(column);
+        width: 100%;
+        >div{
+            width: 100%;
+            position: relative;
+            padding-bottom:0.57rem ;
+            .sell-banner{
+                width: 100%;
+                >img{
+                    width: 100%;
+                }
+                
+            }
+            .sell-detail{
+                background: #fff;
+                width: 100%;
+                height: 2.13rem;
+                .detail-form{
+                    
+                    @include flexbox(flex);
+                    @include flex-direction(column);
+                    width:100%;
+                    height: 2.13rem; 
+                    >li{
+                        
+                       @include flex(1);
+                       @include box-sizing(border-box);
+                       @include border(0 0 1px 0, #cbd7cc);
+                       width: 100%;
+                       line-height: .52rem;
+                       >div>span:nth-child(1){  
+                            color: #fd755a;
+                            font-size: .08rem;
+                      }
+                      >div>span:nth-child(2){
+                          font-size: .16rem;
+                          color: #747a7c;
+                          font-weight: 700;
+                      }
+                      >span{
+                           @include box-sizing(border-box);
+                          font-size: .15rem;
+                          color: #c0c0c0;
+                          font-weight: 700;
+                          padding-right: .2rem;
+                      }
+                    }
+                   >li:nth-child(1){
+                       @include flexbox(flex);
+                       @include justify-content(space-between);
+                       
+                   }
+                    >li:nth-child(2){
+                       @include flexbox(flex);
+                       @include justify-content(space-between);
+                       
+                   }
+                    >li:nth-child(3){
+                         font-size: .16rem;
+                          color: #747a7c;
+                          font-weight: 700;
+                        >span{
+                             @include box-sizing(border-box);
+                              color: #fd755a;
+                            font-size: .08rem;
+                             padding-right: 0;
+                        }
+                      >input{
+                           @include box-sizing(border-box);
+                            padding-left: .1rem;
+                          display: inline-block;
+                          width: 2.7rem;
+                         border: none;
+                         outline: none;
+                      }
+                      
+                       
+                   }
+                     >li:nth-child(4){
+                       @include box-sizing(border-box);
+                         @include flexbox(flex);
+                        @include justify-content(center);
+                        @include align-items(center); 
+                       @include border(0 0 0 0, #cbd7cc);
+                          
+                       >span{
+                          
+                           display: block;
+                           width: 3.3rem;
+                           height: .41rem;
+                           background: #f63d0a;
+                           border-radius:.2rem ;
+                           text-align: center;
+                           line-height: .41rem;
+                           color: white;
+                           font-size: .23rem;
+                         
+                       }
+                       
+                   }
+                }
+            }
+            .sell-list{
+                width: 100%;
+                
+                >img{
+                    width: 100%;
+                   
+                }
+                
+            }
+            
+        }
+    }
+    
+    
+}

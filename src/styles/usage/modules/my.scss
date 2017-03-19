@@ -1,0 +1,190 @@
+.m-my-body{
+   
+     @include flexbox(flex);
+     @include flex-direction(column);
+     width: 100%;
+    .my-header{
+        @include box-sizing(border-box);
+        @include border(0 0 1px 0,#cbd7cc);
+        background: #f4f4f4;
+        width: 100%;
+        height: .5rem;
+        text-align: center;
+        line-height: .5rem;
+        font-size: .21rem;
+        font-weight: 700;
+    }
+    .my-tit{
+        
+        @include flexbox(flex);
+        
+        width: 100%;
+        height: 1.02rem;
+        background: #62c7c8;
+        span:nth-child(1){
+            @include box-sizing(border-box);
+            padding-left:.2rem;
+            line-height: 1.02rem;
+            font-size: .61rem ;
+            opacity: .4;
+            display: inline-block;
+        }
+        span:nth-child(2){
+           @include box-sizing(border-box);
+            padding-left:.05rem;
+              display: inline-block;
+            line-height: 1.02rem;
+            width: 1.04rem;
+            color: black;
+            font-size: .21rem ;
+            font-weight: 700;
+          
+        }
+         span:nth-child(3){
+           @include box-sizing(border-box);
+            padding-left:.08rem;
+             line-height: 1.02rem;
+            font-size: .14rem ;
+            font-weight: 700;
+            display: inline-block;
+        }
+          span:nth-child(4){
+          @include box-sizing(border-box);
+            padding-left:.06rem;
+            line-height: 1.02rem;
+            font-size: .13rem ;
+            color: #c7c7cc;
+            font-weight: 700;
+            display: inline-block;
+        }
+        
+        
+    }
+    
+    .my-list{
+        width: 100%;
+        height: 3.03rem;
+        >ul{
+            @include flexbox(flex);
+            @include flex-direction(column);
+            width: 100%;
+            height: 3.03rem;
+                >li{
+                    
+                @include flex(1);
+                @include flexbox(flex);
+                @include justify-content(space-between);
+                @include box-sizing(border-box);
+                @include border(0 0 1px 0, #cbd7cc);
+                width: 100%;
+                line-height: .52rem;
+              background: white;
+                >div{
+                       @include box-sizing(border-box);
+                         padding-left: .18rem; 
+                        
+                    >span:nth-child(1){
+                        @include box-sizing(border-box);
+                        margin-bottom: .08rem;  
+                    background: #ff731f;
+                    display: inline-block;
+                    width:.36rem;
+                    height: .36rem;
+                    font-size: .22rem;
+                    text-align: center;
+                    color: white;
+                    line-height: .36rem;
+                    border-radius:.12rem ;
+                   
+                    
+                    }
+                    >span:nth-child(2){
+                        line-height: .54rem;
+                        font-size: .2rem;
+                        font-weight: 700;
+                        
+                    }
+                }
+                >span{
+                    @include box-sizing(border-box);
+                        margin-right: .17rem;  
+                     font-size: .13rem ;
+                    color: #c7c7cc;
+                    font-weight: 700;
+                }
+            }
+            >li:first-child{
+                @include box-sizing(border-box);
+                margin-bottom: .22rem;
+               
+            }
+            >li:nth-child(2){
+                 >div>span:nth-child(1){
+                    background: #5ed1ee; 
+                }  
+            }
+            >li:nth-child(3){
+                 >div>span:nth-child(1){
+                    background: #fec35f; 
+                }  
+            }
+            >li:nth-child(4){
+                 >div>span:nth-child(1){
+                    background: #e9a4cb; 
+                }  
+            }
+            >li:last-child{
+                @include box-sizing(border-box);
+                margin-top: .22rem;
+                 >div>span:nth-child(1){
+                    background: #9fdf89; 
+                }
+                
+            }
+            
+        }
+       
+        
+        
+    }
+    .my-foot{
+        width: 100%;
+        height: 1.28rem;
+        .foot-wrap{
+            @include flexbox(flex);
+                @include box-sizing(border-box);
+                padding-top: .28rem;
+            width: 100%;
+            height: .53rem;
+            >div:nth-child(1){
+                 @include box-sizing(border-box);
+                 @include border(0 1px 0 0,#000);
+                width: 2.74rem;
+                height: .53rem;
+                font-size: .15rem;
+                color: #838383;
+                line-height: .25rem;
+                
+            }
+            >div:nth-child(2){
+                width: .9rem;
+                height: .53rem;
+                @include flexbox(flex);
+                @include flex-direction(column);
+                >span:nth-child(1){
+                    @include box-sizing(border-box);
+                     padding-left: .25rem;
+                    >img{
+                        width: .25rem;
+                        height: .25rem;
+                    }
+                     
+                }
+                >span:nth-child(2){
+                    font-size: .15rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+ }   

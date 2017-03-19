@@ -1,0 +1,41 @@
+<div class="m-sell-body">
+	<div class="sell-header">
+		卖车
+	</div>
+	<div class="sell-content" spa-widget="scroll" >
+		<div>
+			<div class="sell-banner">
+				<img src="/CarApp/img/sell-banner.png" />
+			</div>
+			<div class="sell-detail">
+				<ul class="detail-form">
+					<li>
+					
+					<div>
+					<span>&nbsp;&nbsp;*</span>
+					<span>&nbsp;&nbsp;品牌车系</span>
+					</div>
+					<span>请选择 ></span>
+					
+					</li>
+					<li>
+					<div><span>&nbsp;&nbsp;*</span><span>&nbsp;&nbsp;交易城市</span></div>
+					<span>北京 ></span>
+					</li>
+					<li>
+					<span>&nbsp;&nbsp;*</span>&nbsp;&nbsp;手机号码<input type="text" placeholder="号码将以400显示，避免骚扰" />
+					
+					</li>
+					<li>
+						<span>提交卖车</span>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="sell-list">
+				<img src="/CarApp/img/sell-list.png" />
+			</div>
+		</div>
+	</div>
+
+</div>

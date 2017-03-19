@@ -1,0 +1,270 @@
+.m-index{
+       
+        width: 100%;
+        height: 100%;
+       @include flexbox(flex); 
+       @include flex-direction(column); 
+       
+    .m-index-body{
+        
+        @include flex(1);
+        @include flex(flex);
+        width:100%;
+        header{
+            
+            @include flexbox(flex);
+            
+                width:100%;
+                height:.5rem;
+           .mypostion{
+               color: #fd755a;
+               text-align: center;
+               line-height: 0.5rem;
+               width: 0.67rem;
+                height: 0.5rem;
+                 font-size: .2rem;
+           }
+           .search{
+                
+                width: 3.07rem;
+                height: 0.5rem;
+                position: relative;
+                text-align: center;
+                >div{
+                    
+                    font-size: 0.17rem;
+                    position: absolute;
+                }
+                >input{
+                    text-align: center;
+                    display: inline-block;
+                    width: 2.85rem;
+                    height: 0.37rem;
+                    outline: none;
+                    
+                }
+                
+           }
+        }
+        section{
+            @include flex(1);
+            background: #fff;
+            width: 100%;
+        
+            .content-wrap{
+                
+                width: 100%;
+                 position: relative;
+               
+                 padding-bottom: .57rem;
+                .banner{
+                    width: 100%;
+                    height: 1.66rem;
+                    .swiper-container{
+                        width: 100%;
+                        height: 1.66rem;
+                        
+                    }
+                    .swiper-slide>img{
+                         width: 100%;
+                        height: 1.66rem;
+                    }
+                   
+                }
+                .i-nav{
+                    @include flexbox(flex);
+                    @include flex-direction(column);
+                     @include box-sizing(padding-box);
+                    width: 100%;
+                    height: 1.59rem;
+                    border-bottom: .12rem solid #f0f0f0; 
+                    >ul:nth-child(1){
+                        @include box-sizing(border-box);
+                          padding-top: .22rem;
+                        @include flexbox(flex);
+                        @include justify-content(space-between);
+                        width: 100%;
+                        height: 0.78rem;
+                        padding-left:.11rem;
+                        padding-right:.11rem;
+                         font-size: 0.16rem;  
+                       text-align: center;
+                        >li:nth-child(1){
+                        
+                          
+                        
+                            width: 2.49rem;
+                            line-height: 0.44rem;
+                              height: 0.44rem;
+                            text-align: center;
+                             
+                          background: #fd521d; 
+                           
+                           color: white;
+                           span{
+                              font-size: 0.28rem;
+                              color: white;
+                          }                           
+                        }
+                        >li:nth-child(2){
+                            width: 0.89rem;
+                              height: 0.44rem;
+                              line-height: 0.44rem;
+                            text-align: center;
+                          
+                            background: #ffb300;
+                             color: white;
+                        } 
+                       
+                    }
+                    >ul:nth-child(2){
+                         
+                        @include flexbox(flex);
+                         @include box-sizing(border-box);
+                         @include justify-content(space-between);
+                        width: 100%;
+                        height: 0.65rem;
+                        font-size: 0.16rem; 
+                        line-height: 0.75rem;
+                         padding-left:.11rem;
+                        padding-right:.11rem;
+                        >li:nth-child(1){
+                            width: 2.49rem;
+                            height: 0.44rem;
+                              line-height: 0.44rem;
+                            text-align: center;
+                               color: white;  
+                          background: #ffb300; 
+                          span{
+                              font-size: 0.28rem;
+                              color: white;
+                          }                    
+                        }
+                        >li:nth-child(2){
+                             width: 0.89rem;
+                             height: 0.44rem;
+                             line-height: 0.44rem;
+                            text-align: center;
+                             color: white;
+                            background: #54ac50;
+                        } 
+                         
+                    }
+                    
+                }
+                .price-nav{
+                    @include flexbox(flex);
+                    @include flex-direction(column);
+                     @include box-sizing(border-box);
+                     border-bottom: .12rem solid #f0f0f0; 
+                    width: 100%;
+                    height: 2rem;
+                    background: #fff;
+                    .price-tit{
+                        @include flexbox(flex);
+                        @include justify-content(space-between);
+                        @include box-sizing(padding-box);
+                          padding-left: 0.11rem;
+                          padding-right: .17rem;
+                           padding-top: .15rem;
+                          height: .38rem;
+                        >span:nth-child(1)
+                        {
+                            height: .25rem;
+                            text-align: center;
+                            @include box-sizing(border-box);
+                            border-left:0.06rem solid #f37e0b ;
+                            font-size: .2rem;
+                            font-weight: 700;
+                            display: inline-block;    
+                        }
+                         >span:nth-child(2)
+                        {
+                           height: .25rem;
+                            text-align: center;
+                            font-size: .15rem;
+                            font-weight: 700;
+                            color: #cdcdcd;
+                            display: inline-block;    
+                        }
+                    }
+                    >ul{
+                        @include flex(1);
+                        @include flexbox(flex);
+                        width: 100%;
+                        >li{
+                            @include flex(1);
+                            
+                            text-align: center;
+                            line-height: 0.49rem;
+                            font-size: .17rem;
+                            span:after{
+                                content:"|";
+                                display: inline-block;
+                                float: right;
+                            } 
+                             &:last-child >span:after{
+                                content:"";
+                                display: inline-block;
+                               
+                            }   
+                             
+                        }
+                    }
+                    
+                }
+                
+                .index-foot{
+                    @include flexbox(flex);
+                    width: 100%;
+                    height: 0.9rem;
+                    background: #fff;
+                    >div{
+                      @include  flex(1);
+                      >img{
+                          width: 100%;
+                          height: 0.9rem;
+                       
+                      }
+                    }
+                    
+                }
+                .kong{
+                    width: 100%;
+                    height: 0.12rem;
+                    background: #f0f0f0;
+                }
+            }
+        }
+    }
+    
+    footer{
+        
+        position: relative;
+        background: #eceef0;
+        
+        width: 100%;
+        height: 0.57rem;
+        >ul{
+            @include flexbox(flex);
+            text-align: center;
+                >li{
+                    
+                 &.active{
+                     color:#fd755a;
+                 }   
+                    @include flex(1);   
+                    >i{
+                        font-size: 0.28rem;
+                        
+                    }
+                    >p{
+                        font-size: 0.14rem;
+                    }
+                } 
+        }
+        
+    }  
+    
+}
+

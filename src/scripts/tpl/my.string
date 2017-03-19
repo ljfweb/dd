@@ -1,0 +1,76 @@
+<div class="m-my-body">
+	<div class="my-header">
+		我的
+	</div>
+	<div class="my-tit">
+		<span class="yo-ico">&#xe61e;</span><span>登录/注册</span>
+		<span>获得更佳体验</span>
+		<span class="yo-ico">&#xe6a9;</span>
+		
+	</div>
+	<div class="my-list">
+		<ul>
+			<li>
+			<div>
+			<span class="yo-ico">&#xe61d;</span>
+			<span>我的订阅</span>
+			</div>
+			<span class="yo-ico">
+				&#xe6a9;
+			</span>	
+			</li>
+			<li>
+			<div>
+			<span class="yo-ico">&#xe625;</span>
+			<span>我的收藏</span>
+			</div>
+			<span class="yo-ico">
+				&#xe6a9;
+			</span>	
+			</li>
+			<li>
+			<div>
+			<span class="yo-ico">&#xe630;</span>
+			<span>联系记录</span>
+			</div>
+			<span class="yo-ico">
+				&#xe6a9;
+			</span>	
+			</li>
+			<li>
+			<div>
+			<span class="yo-ico">&#xe693;</span>
+			<span>联系记录</span>
+			</div>
+			<span class="yo-ico">
+				&#xe6a9;
+			</span>	
+			</li>
+			<li>
+			<div>
+			<span class="yo-ico">&#xe60c;</span>
+			<span>设置</span>
+			</div>
+			<span class="yo-ico">
+				&#xe6a9;
+			</span>	
+			</li>
+		</ul>
+		
+	</div>
+	<div class="my-foot">
+		<div class="foot-wrap">
+			<div>
+				如果有任何问题，请在8：00-9：00联系
+				客服电话:8888 8888
+			</div>
+			<div>
+				<span><img src="/CarApp/img/my-foot.png" /></span>
+				<span>致电我们</span>
+			</div>
+		</div>	
+	</div>
+
+
+
+</div>

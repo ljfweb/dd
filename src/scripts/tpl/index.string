@@ -1,0 +1,15 @@
+<div class="m-index">
+	
+	<div class="m-index-body">
+		
+	</div>
+	<footer>
+		 <ul>
+		      <li  class="active"  action-type="tap.switch" data-tag="home"><i class="yo-ico">&#xe7cb;</i><p>首页</p></li>
+		      <li action-type="tap.switch" data-tag="buy"><i class="yo-ico">&#xe617;</i><p>买车</p></li>
+		      <li action-type="tap.switch" data-tag="sell"><i class="yo-ico">&#xe680;</i><p>卖车</p></li>
+		      <li action-type="tap.switch" data-tag="assess"><i class="yo-ico">&#xe739;</i><p>估价</p></li>
+		      <li action-type="tap.switch" data-tag="my"><i class="yo-ico">&#xe63a;</i><p>我的</p></li>
+   		 </ul>
+	</footer>
+</div>

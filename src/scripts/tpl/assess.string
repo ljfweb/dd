@@ -1,0 +1,49 @@
+<div class="m-assess-body">
+	<div class="assess-header">
+		 车价评估
+	</div>
+	<div class="assess-detail">
+		<ul>
+			<li>
+				<img src="/CarApp/img/assess-tit.png" />
+			</li>
+			<li>
+			<div class="s1">
+			<span>*</span>
+			<span>车型品牌</span>
+			</div>
+			<span>请选择 ></span>
+			
+			</li>
+			<li>
+			<div class="s1">
+			<span>*</span>
+			<span>车辆属地</span>
+			</div>
+			<span>请选择 ></span>
+			</li>
+			<li>
+			<div class="s1">
+			<span>*</span>
+			<span>上牌时间</span>
+			</div>
+			<span>请选择 ></span>
+			</li>
+			<li>
+			<div class="s1">
+			<span>*</span>
+			<span>行驶里程</span>
+			</div>
+			<div>
+			<input type="text" placeholder="输入数字" />
+			<span>万公里</span>
+			</div>
+			</li>
+		</ul>
+		<div class="assess-sub">
+			<span>开始评估</span>
+		<div>
+	<div>
+
+
+</div>

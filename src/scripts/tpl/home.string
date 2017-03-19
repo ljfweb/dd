@@ -1,0 +1,69 @@
+<header>
+			<div class="mypostion">
+				<span class="yo-ico">&#xe65b;</span>
+				<span>北京</span>
+			</div>
+			<div class="search">
+				<input class="yo-ico" type="text" placeholder="&#xe609; 4078辆车提供你选择"  />
+			</div>
+</header>
+<section spa-widget="scroll">
+	<div class="content-wrap">
+		<div class="banner">
+				<div class="swiper-container" id="h-swipe">
+				  <div class="swiper-wrapper">
+				    <div class="swiper-slide"><img src="/CarApp/img/banner.png" class="banner-img" /></div>
+				    <div class="swiper-slide"><img src="/CarApp/img/banner.png" class="banner-img" /></div>
+				    <div class="swiper-slide"><img src="/CarApp/img/banner.png" class="banner-img" /></div>
+				  </div>
+				</div>
+ 		</div>
+ 		<div class="i-nav">
+ 			<ul class="yo-ico">
+ 				<li><span>&#xe604;</span>  买车</li>
+ 				<li>车况检测</li>
+ 			</ul>
+ 			<ul class="yo-ico">
+ 				<li><span>&#xe680;</span>  卖车</li>
+ 				<li>车辆估价</li>
+ 			</ul>
+ 		</div>
+ 		<div class="price-nav">
+ 			<div class="price-tit">
+ 				<span>&nbsp;快速选车</span>
+ 				<span>更多 ></span>
+ 			</div>
+ 			<ul>
+ 				<li><span>3万以下</span></li>
+ 				<li><span>3-5万</span></li>
+ 				<li><span>5-10万</span></li>
+ 				<li><span>10-20万</span></li>
+ 			</ul>
+ 			<ul>
+ 				<li><span>准新车</span></li>
+ 				<li><span>suv</span></li>
+ 				<li><span>轿车</span></li>
+ 				<li><span>跑车</span></li>
+ 			</ul>
+ 			<ul>
+ 				<li><span>大众</span></li>
+ 				<li><span>奥迪</span></li>
+ 				<li><span>宝马</span></li>
+ 				<li><span>兰博</span></li>
+ 			</ul>
+ 			
+ 		</div>
+ 		<div class="index-foot">
+ 			<div>
+ 				<img src="/CarApp/img/index-foot.png" />
+ 			</div>
+ 			<div>
+ 				<img src="/CarApp/img/index-foot2.png" />
+ 			</div>
+ 			
+ 		</div>
+ 		<div class="kong"></div>
+ 		
+ 		
+	</div>	
+</section>

@@ -1,0 +1,49 @@
+<div class="m-buy-body">
+		<div class="buy-header">
+			<div class="mypostion">
+				<span class="yo-ico">&#xe65b;</span>
+				<span>北京</span>
+			</div>
+			<div class="search">
+				<input class="yo-ico" type="text" placeholder="&#xe609; 4078辆车提供你选择"  />
+			</div>
+			<div class="choose">筛选</div>
+		</div>
+		<div class="buy-nav">
+			<ul>
+				<li>默认排序 ></li>
+				<li>轿车 ></li>
+				<li>价格 ></li>
+				<li>品牌  ></li>
+			</ul>
+		</div>
+		<div class="choose-bar">
+			<div>
+				<span>当前:</span>
+				<span>轿车/</span>
+				<span>兰博/</span>
+				<span>300万以上</span>
+			</div>
+			<div>重置</div>
+		</div>
+		<div class="choose-goods" spa-widget="scroll">
+			<div ms-each="buylist">
+				<dl>
+					<dt>
+						<img src="/CarApp/img/choose-goods.png" />
+					</dt>
+					<dd>
+						<ul>
+							<li><span ms-text="el.name">法拉利</span><span>10小时前更新</span></li>
+							<li>2016款 2.4 无极 奢华型</li>
+							<li>1万公里/2016年/北京</li>
+							<li ms-text="el.prcie">9.85万</li>
+						</ul>
+					</dd>
+				</dl>
+				
+				
+			</div>
+		</div>
+
+</div>
